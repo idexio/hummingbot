@@ -1,5 +1,20 @@
 ![Hummingbot](https://i.ibb.co/X5zNkKw/blacklogo-with-text.png)
 
+## Idex connector for hummingbot
+
+**Notice**: This code repository is dedicated to Idex's efforts to develop an exchange 
+connector for Hummingbot. The main/official Hummingbot's repository [is located here](https://github.com/CoinAlpha/hummingbot).
+
+We have modified Hummingbot's installation scripts to help our enthusiast users to quickly deploy a fully functional 
+Hummingbot instance with the IDEX connector. 
+This is a temporarily arrangement, while we wait for [our Pull Request](https://github.com/CoinAlpha/hummingbot/pull/3199) 
+to the offical Hummingbot repo to be merged.
+
+At the moment the only supported method to get the Idex connector running is install from source. 
+Install scripts are located in directory `hummingbot/installation/install-from-source`
+Use the appropriate script for your OS.
+
+
 ----
 [![Jenkins](https://jenkins-02.coinalpha.com/buildStatus/icon?job=hb_test-master_branch&subject=jenkins:master)](https://jenkins-02.coinalpha.com/job/hb_test-master_branch)
 [![Jenkins](https://jenkins-02.coinalpha.com/buildStatus/icon?job=hb_test-development_branch&subject=:development)](https://jenkins-02.coinalpha.com/job/hb_test-development_branch)

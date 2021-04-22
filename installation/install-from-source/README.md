@@ -1,5 +1,12 @@
 # Installing from Source
 
+> **Notice**: Idex have modified Hummingbot's installation scripts in this branch to clone 
+> the code from our repo instead of Hummingbot official repo. 
+> This is done to help our enthusiast users to quickly deploy a fully functional 
+> Hummingbot instance with the IDEX connector. 
+> This is a temporarily arrangement, while we wait for [our Pull Request](https://github.com/CoinAlpha/hummingbot/pull/3199) 
+to the offical Hummingbot repo to be merged.
+
 The following commands download and run scripts that (1) install local dependencies and (2) install Hummingbot.
 
 Copy and paste the commands for your operating system into terminal.
