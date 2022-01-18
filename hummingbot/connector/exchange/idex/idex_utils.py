@@ -6,7 +6,7 @@ from hummingbot.core.utils.tracking_nonce import get_tracking_nonce
 
 EXAMPLE_PAIR = "IDEX-USD"
 DEFAULT_FEES = [0.1, 0.25]  # fees in percentage for maker, taker
-GAS_EXTRA_FEES = [0, 1]  # extra fee in percentage to account for gas costs (this is a very gross approximation)
+GAS_EXTRA_FEES = [0, 0.25]  # extra fee in percentage to account for gas costs (this is a very gross approximation)
 
 ETH_GAS_LIMIT = 170000  # estimation of upper limit of gas idex uses to move its smart contact for each fill
 BSC_GAS_LIMIT = 60000  # estimate from real taker orders
